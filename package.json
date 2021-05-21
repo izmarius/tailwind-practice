@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "learning tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss-cli@latest build ./src/styles.css -o ./public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izmarius/tailwind-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izmarius/tailwind-practice/issues"
+  },
+  "homepage": "https://github.com/izmarius/tailwind-practice#readme",
+  "dependencies": {
+    "tailwindcss": "^2.1.2"
+  }
+}
